@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+a:hover{
+   color:rgb(140, 78, 255)
+}
+.bold{
+    font-weight:"700px" !important;
+    
+}
+.line {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+.shadow{
+    box-shadow: rgb(245, 223, 78) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+}
+#footerL:hover{
+color:black !important;
+}
