@@ -24,21 +24,21 @@ function About() {
                 Looking forward to applying and enhancing my skills and knowledge as a developer.
                 </Text>
                 </Wrap>
-               <Flex mt="2%" wrap="wrap" justify="space-between" gap="1em" textAlign="center">
-                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em">
+               <Flex mt="4%" wrap="wrap" justify="space-between" gap="1em" textAlign="center">
+                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em" m="auto">
                     <Heading>1200+</Heading>
                     <Heading fontSize="24px">Hours of Coding</Heading>
                   </Box>
-                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em">
+                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em" m="auto">
                     <Heading>800+</Heading>
                     <Heading fontSize="24px">Hours of DSA</Heading>
                   </Box>
-                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em">
+                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em" m="auto">
                     <Heading>100+</Heading>
                     <Heading fontSize="24px">Hours of Soft Skills</Heading>
                   </Box>
                     </Flex>
-               <Flex mt="2%" wrap="wrap" justify="space-between" gap="1em">
+               <Flex mt="3%" wrap="wrap" justify="space-between" gap="1em">
                    
                     <Box>
                         <Text as='abbr' display="block">Name:</Text>
