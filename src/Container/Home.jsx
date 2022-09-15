@@ -8,10 +8,10 @@ function Home() {
     return (
         
            <Box id='home' position="relative" pt="100px" height={"100vh"}  background="rgb(245, 223, 78)">
-            <Flex justifyContent="space-between" wrap={{base:"wrap-reverse",md:"nowrap",lg:"nowrap"}} gap={"50px"}>
-              <Box pl="10%" >
+            <Flex justifyContent="space-between" wrap={{base:"wrap-reverse",md:"nowrap",lg:"nowrap"}} gap={"50px"} px="10%">
+              <Box mt={{base:"5%",sm:"25%",md:"0px",lg:"0px"}}>
               <Fade top cascade>
-                 <Heading lineHeight="1.5em" fontSize={{base:"30px",md:"40px",lg:"50px"}} color="#0e2431" fontWeight={700}>Hi 👋,<br />
+                 <Heading lineHeight="1.5em" fontSize={{base:"28px",sm:"30px",md:"40px",lg:"48px"}} color="#0e2431" fontWeight={700}>Hi 👋,<br />
                  I'am <span style={{color:"rgb(140, 78, 255)"}}>Faizan</span> <br />
                  MERN Stack Developer</Heading>
                  
@@ -23,9 +23,9 @@ function Home() {
                  
                  </Fade>
               </Box>
-              <Box width={{base:"70%",sm:"60%",md:"300px",lg:"400px"}} height={{base:"250px",md:"300px",lg:"300px"}}  m={{base:"auto",md:"0px",lg:"0px"}} pr="10%" >
+              <Box width={{base:"80%",sm:"80%",md:"400px",lg:"400px"}} height={{base:"250px",md:"300px",lg:"250px"}}  m={{base:"auto",md:"0px",lg:"0px"}} >
               <Fade top cascade>
-                <Image w="100%"   height="100%" borderRadius="50%" src={pic} alt="error"  />
+                <Image w="fit-content"   height="100%" borderRadius="50%" src={pic} alt="error"  />
                 </Fade>
               </Box>
             </Flex>
