@@ -1,4 +1,4 @@
-import { Box, CircularProgress, CircularProgressLabel, Flex, Heading, Highlight, Text, Wrap } from '@chakra-ui/react';
+import { Box, Flex, Heading, Highlight, Text, Wrap } from '@chakra-ui/react';
 import React from 'react';
 import Fade from 'react-reveal/Fade'; 
 import "../CSS/mystyle.css"
@@ -38,28 +38,16 @@ function About() {
                     <Heading fontSize="24px">Hours of Soft Skills</Heading>
                   </Box>
                     </Flex>
-               <Flex mt="3%" wrap="wrap" justify="space-between" gap="1em">
-                   
-                    <Box>
-                        <Text as='abbr' display="block">Name:</Text>
-                        <Text as='b'>Faizan Ghani</Text>
+               
+                    <Box mt={"5%"}>
+                    <Heading textAlign={"center"}>My GitHub Stats</Heading>
+
+<Flex my="3%" justify="space-between" flexDirection={['column', 'column','column','row']}>
+    <img align="center" alt="error" src="https://github-readme-stats.vercel.app/api?username=faizanghani2222&theme=default&hide_border=true&include_all_commits=false&count_private=true"  height="139" />
+    <img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=faizanghani2222&theme=default&hide_border=true" alt="faizanghani2222" height="139" />
+</Flex>
+<img alt="error" src="https://activity-graph.herokuapp.com/graph?username=faizanghani2222&theme=xcode&include_all_commits=true&count_private=true&theme=default" height ="307"/>
                     </Box>
-                    
-                    <Box>
-                        <Text as='abbr' display="block">Email:</Text>
-                        <Text as='b'>faizanghani22222gmail.com</Text>
-                    </Box>
-                   
-                    <Box>
-                        <Text as='abbr' display="block">Date of birth:</Text>
-                        <Text as='b'>27 October, 2001  </Text>
-                    </Box>
-                    <Box>
-                        <Text as='abbr' display="block">From:</Text>
-                        <Text as='b'>Kolkata, West Bengal</Text>
-                    </Box>
-            
-                    </Flex>
             </Box>
            </Fade>
         </Box>
