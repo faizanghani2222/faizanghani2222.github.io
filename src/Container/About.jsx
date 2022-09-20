@@ -39,15 +39,7 @@ function About() {
                   </Box>
                     </Flex>
                
-                    <Box mt={"5%"}>
-                    <Heading textAlign={"center"}>My GitHub Stats</Heading>
-
-<Flex my="3%" justify="space-between" flexDirection={['column', 'column','column','row']}>
-    <img align="center" alt="error" src="https://github-readme-stats.vercel.app/api?username=faizanghani2222&theme=default&hide_border=true&include_all_commits=false&count_private=true"  height="139" />
-    <img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=faizanghani2222&theme=default&hide_border=true" alt="faizanghani2222" height="139" />
-</Flex>
-<img alt="error" src="https://activity-graph.herokuapp.com/graph?username=faizanghani2222&theme=xcode&include_all_commits=true&count_private=true&theme=default" height ="307"/>
-                    </Box>
+                   
             </Box>
            </Fade>
         </Box>

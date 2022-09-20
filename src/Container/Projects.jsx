@@ -6,7 +6,7 @@ import dh from "../images/dh.png"
 import jio from "../images/jio.png"
 function Projects(){
     return (
-        <Box  w="100%" id="project" pt={["25%","10%","10%"]} pb="30px" mt={{base:"40%",sm:"20%"}}>
+        <Box  w="100%" id="project" pt={["25%","5%","5%"]} pb="30px" mt={{base:"40%",sm:"20%"}}>
             <Heading fontWeight="400" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">Projects</Heading>
             <Heading fontSize="32px" px="10%" textAlign="center">Some of my recent projects</Heading>
             <Box mt="3%" pb="30px" px="10%">
@@ -109,6 +109,17 @@ function Projects(){
                         <Image transition="transform .2s" _hover={{transform:" scale(1.2)"}} w="100%" h={["200px","100%%","100%"]} src={dh}/>
                     </Box>
                 </Flex>
+                </Fade>
+                <Fade right cascade>
+                <Box mt={"7%"}>
+                    <Heading fontSize="32px" textAlign={"center"}>My GitHub Stats</Heading>
+
+<Flex my="3%" justify="space-between" flexDirection={['column', 'column','column','row']}>
+    <img align="center" alt="error" src="https://github-readme-stats.vercel.app/api?username=faizanghani2222&theme=default&hide_border=true&include_all_commits=false&count_private=true"  height="139" />
+    <img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=faizanghani2222&theme=default&hide_border=true" alt="faizanghani2222" height="139" />
+</Flex>
+<img alt="error" src="https://activity-graph.herokuapp.com/graph?username=faizanghani2222&theme=xcode&include_all_commits=true&count_private=true&theme=default" height ="307"/>
+                    </Box>
                 </Fade>
             </Box>
         </Box>
