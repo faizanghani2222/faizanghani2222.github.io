@@ -4,10 +4,21 @@ import Fade from 'react-reveal/Fade';
 import zara from "../images/zara.png"
 import dh from "../images/dh.png"
 import jio from "../images/jio.png"
+import GitHubCalendar from 'react-github-calendar';
 function Projects(){
+
+    const colourTheme = {
+        background: "transparent",
+        text: "#ffffff",
+        grade4: "#8400b8",
+        grade3: "#b22ff4",
+        grade2: "#b265f6",
+        grade1: "#c084f5",
+        grade0: "#ecd9fc"
+      };
     return (
-        <Box  w="100%" id="project" pt={["25%","5%","5%"]} pb="30px" mt={{base:"40%",sm:"20%"}}>
-            <Heading fontWeight="400" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">Projects</Heading>
+        <Box  w="100%" id="project" pt={["25%","5%","5%"]} pb="30px" mt={{base:"30%",sm:"20%",md:0,lg:0}}>
+            <Heading fontWeight="600" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">Projects</Heading>
             <Heading fontSize="32px" px="10%" textAlign="center">Some of my recent projects</Heading>
             <Box mt="3%" pb="30px" px="10%">
                 <Fade left cascade>
@@ -112,13 +123,39 @@ function Projects(){
                 </Fade>
                 <Fade right cascade>
                 <Box mt={"7%"}>
+
+
+                <Heading fontWeight="600" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">Statistics</Heading>
+
+                <Flex my="6%" wrap="wrap" justify="space-between" gap="1em" textAlign="center">
+                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em" m="auto">
+                    <Heading>1200+</Heading>
+                    <Heading fontSize="24px">Hours of Coding</Heading>
+                  </Box>
+                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em" m="auto">
+                    <Heading>800+</Heading>
+                    <Heading fontSize="24px">Hours of DSA</Heading>
+                  </Box>
+                  <Box width={{base:"80%",sm:"40%",md:"30%",lg:"30%"}} p="20px" background="rgb(245, 223, 78)" borderRadius="1em" m="auto">
+                    <Heading>100+</Heading>
+                    <Heading fontSize="24px">Hours of Soft Skills</Heading>
+                  </Box>
+                    </Flex>
+
                     <Heading fontSize="32px" textAlign={"center"}>My GitHub Stats</Heading>
 
 <Flex my="3%" justify="space-between" flexDirection={['column', 'column','column','row']}>
     <img align="center" alt="error" src="https://github-readme-stats.vercel.app/api?username=faizanghani2222&theme=default&hide_border=true&include_all_commits=false&count_private=true"  height="139" />
     <img align="center"  src="https://github-readme-streak-stats.herokuapp.com/?user=faizanghani2222&theme=default&hide_border=true" alt="faizanghani2222" height="139" />
 </Flex>
-<img alt="error" src="https://activity-graph.herokuapp.com/graph?username=faizanghani2222&theme=xcode&include_all_commits=true&count_private=true&theme=default" height ="307"/>
+{/* <img alt="error" src="https://activity-graph.herokuapp.com/graph?username=faizanghani2222&theme=xcode&include_all_commits=true&count_private=true&theme=default" height ="307"/> */}
+<GitHubCalendar
+          username="faizanghani2222"
+          blockSize={25}
+          blockMargin={6}
+          theme={colourTheme}
+          fontSize={16}
+        />
                     </Box>
                 </Fade>
             </Box>

@@ -15,7 +15,7 @@ import "../CSS/mystyle.css"
 function Skills() {
     return (
       <Box w="100%" id="skill" pt={["25%","10%"]} pb="30px">
-         <Heading fontWeight="400" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">My Skills</Heading>
+         <Heading fontWeight="600" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">My Skills</Heading>
         <Box px="10%" mt="1%">
         <Heading fontSize="32px" textAlign="center">My Tech Stack</Heading>
        <Fade right cascade>
