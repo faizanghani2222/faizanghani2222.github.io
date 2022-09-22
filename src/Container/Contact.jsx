@@ -15,9 +15,9 @@ function Contact() {
       };
       const copye = () => {
         navigator.clipboard.writeText( "faizanghani2222@gmail.com" );
-        ref.current.innerHTML = '<i class="fa-solid fa-check"></i>';
+        refe.current.innerHTML = '<i class="fa-solid fa-check"></i>';
         setTimeout( () => {
-          ref.current.innerHTML = '<i class="fa-solid fa-copy"></i>';
+          refe.current.innerHTML = '<i class="fa-solid fa-copy"></i>';
         }, 4000 );
       };
 
@@ -33,11 +33,11 @@ function Contact() {
                     </Box>
                     <Box display="flex" gap="10px" alignItems="center"mb="10px">
                     <i class="fa-solid fa-phone"></i>
-                    <Text>+91 743 903 5421 <Text ml="20px" display="inline-block" onClick={copy} ref={ref}><i class="fa-solid fa-copy"></i></Text></Text>
+                    <Text>+91 743 903 5421 <Text ml="8px" display="inline-block" onClick={copy} ref={ref}><i class="fa-solid fa-copy"></i></Text></Text>
                     </Box>
                     <Box display="flex" gap="10px" alignItems="center"mb="10px">
                     <i class="fa-solid fa-envelope"></i>
-                    <Text>faizanghani2222@gmail.com <Text ml="20px" display="inline-block" onClick={copye} ref={refe}><i class="fa-solid fa-copy"></i></Text></Text>
+                    <Text>faizanghani2222@gmail.com <Text ml="8px" display="inline-block" onClick={copye} ref={refe}><i class="fa-solid fa-copy"></i></Text></Text>
                     </Box>
                 </Box>
                </Fade>
