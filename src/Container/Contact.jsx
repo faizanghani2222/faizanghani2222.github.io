@@ -24,7 +24,7 @@ function Contact() {
     return (
         <Box width="100%"  pt={["10%","5%","5%"]} h="50vh" pb="50px" px="10%" id="contact" background="rgb(140, 78, 255)" color="white">
             <Heading fontSize="32px" textAlign="center" textDecoration="underline">Get In Touch</Heading>
-            <Flex mt="3%" wrap={{base:"wrap",md:"nowrap",lg:"nowrap"}} justify="space-evenly" alignItems="center" >
+            <Flex mt="3%" wrap={{base:"wrap",md:"nowrap",lg:"nowrap"}} justify={{base:"start",md:"space-evenly",lg:"space-evenly"}} alignItems="center" >
                <Fade bottom cascade>
                <Box>
                     <Box display="flex" gap="10px" alignItems="center" mb="10px">

@@ -122,7 +122,7 @@ function Projects(){
                 </Flex>
                 </Fade>
                 <Fade right cascade>
-                <Box mt={"7%"}>
+                <Box mt={["15%","7%"]}>
 
 
                 <Heading fontWeight="600" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">Statistics</Heading>

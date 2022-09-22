@@ -18,7 +18,7 @@ function About() {
         <Box w="100%"  id="about" pt={["15%","10%"]} textAlign="center">
             <Heading fontWeight="600" fontSize="16px" w="fit-content" px="10px" py="5px" m="auto" background="rgb(245, 223, 78)">About Me</Heading>
            <Fade left cascade>
-           <Box w="80%" m="auto" mt="3%">
+           <Box w="80%" m="auto" mt={["6%","4%"]}>
                 <Heading fontSize="32px" fontWeight="400px">
                 <Highlight  
                     query='Faizan Ghani'
@@ -26,14 +26,14 @@ function About() {
                     Hi, I'am Faizan Ghani
                     </Highlight>
                 </Heading>
-                <Box mt={["5%","3%","3%"]}>
+                <Box mt={["6%","4%","3%"]}>
                 <Text>
                 I am an aspiring Full Stack Web Developer  with core knowledge of MERN stack technology,
                 I love to code, learn things and adapt to new things by myself.
                 Looking forward to applying and enhancing my skills and knowledge as a developer.
                 </Text>
 
-                <Text mt="3%" fontWeight="600">Drop a mail @ faizanghani2222@gmail.com<Text ml="20px" display="inline-block" onClick={copy} ref={ref}><i class="fa-solid fa-copy"></i></Text></Text>
+                <Text mt={["6%","4%","3%"]} fontWeight="600">Drop a mail @ faizanghani2222@gmail.com<Text ml="20px" display="inline-block" onClick={copy} ref={ref}><i class="fa-solid fa-copy"></i></Text></Text>
                 </Box>
               
                
