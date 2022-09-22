@@ -1,8 +1,26 @@
 import { Box, Flex, Heading, Link, Text } from '@chakra-ui/react';
 import React from 'react';
+import { useRef } from 'react';
 import Fade from 'react-reveal/Fade'; 
 import FaizanGhani_Resume from "../Resume/FaizanGhani_Resume.pdf"
 function Contact() {
+    const ref=useRef(null)
+    const refe=useRef(null)
+    const copy = () => {
+        navigator.clipboard.writeText( "+917439035421" );
+        ref.current.innerHTML = '<i class="fa-solid fa-check"></i>';
+        setTimeout( () => {
+          ref.current.innerHTML = '<i class="fa-solid fa-copy"></i>';
+        }, 4000 );
+      };
+      const copye = () => {
+        navigator.clipboard.writeText( "faizanghani2222@gmail.com" );
+        ref.current.innerHTML = '<i class="fa-solid fa-check"></i>';
+        setTimeout( () => {
+          ref.current.innerHTML = '<i class="fa-solid fa-copy"></i>';
+        }, 4000 );
+      };
+
     return (
         <Box width="100%"  pt={["10%","5%","5%"]} h="50vh" pb="50px" px="10%" id="contact" background="rgb(140, 78, 255)" color="white">
             <Heading fontSize="32px" textAlign="center" textDecoration="underline">Get In Touch</Heading>
@@ -15,11 +33,11 @@ function Contact() {
                     </Box>
                     <Box display="flex" gap="10px" alignItems="center"mb="10px">
                     <i class="fa-solid fa-phone"></i>
-                    <Text>+91 743 903 5421</Text>
+                    <Text>+91 743 903 5421 <Text ml="20px" display="inline-block" onClick={copy} ref={ref}><i class="fa-solid fa-copy"></i></Text></Text>
                     </Box>
                     <Box display="flex" gap="10px" alignItems="center"mb="10px">
                     <i class="fa-solid fa-envelope"></i>
-                    <Text>faizanghani2222@gmail.com</Text>
+                    <Text>faizanghani2222@gmail.com <Text ml="20px" display="inline-block" onClick={copye} ref={refe}><i class="fa-solid fa-copy"></i></Text></Text>
                     </Box>
                 </Box>
                </Fade>
