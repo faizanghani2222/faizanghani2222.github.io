@@ -130,7 +130,7 @@ JavaScript | HTML | CSS</Text>
                 </Flex>
                 </Fade>
 
-                <Fade left cascade>
+                <Fade right cascade>
                 <Flex  wrap={{base:"wrap-reverse",md:"nowrap",lg:"nowrap"}} gap={"10px"} mb="20px" px="30px" py="20px"  boxShadow={"rgb(245, 223, 78) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} justify="space-between">
                     <Box>
                     <Heading fontSize={["20px","28px","28px"]}>Deccan Herald - Clone (Group-Project)</Heading>
@@ -142,7 +142,6 @@ JavaScript | HTML | CSS</Text>
                     <Text display="block" as="b">Area of Responsibility</Text>
                     <UnorderedList>
                         <ListItem>Layout of all category pages and detail page</ListItem>
-                        <ListItem>Navbar</ListItem>
                         <ListItem>Responsive navbar</ListItem>
                    </UnorderedList>
                    <Flex mt="1%" justify="space-between" alignItems="center">
@@ -165,7 +164,7 @@ JavaScript | HTML | CSS</Text>
                 </Fade>
 
                
-                <Fade right cascade>
+                <Fade bottom cascade>
                 <Box mt={["15%","7%"]}>
 
 
