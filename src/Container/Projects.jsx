@@ -3,6 +3,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade'; 
 import zara from "../images/zara.png"
 import gh from "../images/gh.png"
+import dh from "../images/dh.png"
 import jio from "../images/jio.png"
 import GitHubCalendar from 'react-github-calendar';
 function Projects(){
@@ -125,6 +126,40 @@ JavaScript | HTML | CSS</Text>
                     </Box>
                     <Box w={["100%","100%","50%","50%"]}>
                         <Image transition="transform .2s" _hover={{transform:" scale(1.2)"}} w="100%" h={["200px","100%%","100%"]} src={jio}/>
+                    </Box>
+                </Flex>
+                </Fade>
+
+                <Fade left cascade>
+                <Flex  wrap={{base:"wrap-reverse",md:"nowrap",lg:"nowrap"}} gap={"10px"} mb="20px" px="30px" py="20px"  boxShadow={"rgb(245, 223, 78) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"} justify="space-between">
+                    <Box>
+                    <Heading fontSize={["20px","28px","28px"]}>Deccan Herald - Clone (Group-Project)</Heading>
+                    <Text as="b">Tech Stack:</Text><Text> HTML | CSS | JavaScript</Text>
+                    <Text display="block" as="b">Features:</Text>
+                    <UnorderedList>
+                        <ListItem>A complete news website having different sections and categories</ListItem>
+                   </UnorderedList>
+                    <Text display="block" as="b">Area of Responsibility</Text>
+                    <UnorderedList>
+                        <ListItem>Layout of all category pages and detail page</ListItem>
+                        <ListItem>Navbar</ListItem>
+                        <ListItem>Responsive navbar</ListItem>
+                   </UnorderedList>
+                   <Flex mt="1%" justify="space-between" alignItems="center">
+                   <Link href="https://enchanting-muffin-9f8441.netlify.app/" isExternal>
+                    <Button background="rgb(140, 78, 255)" color="white">Live 
+                    <i style={{marginLeft:"6px"}} class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                    </Button>
+                    </Link>
+                    <Link href="https://github.com/Sakil9051/WEB-101-Project" isExternal>
+                    <Button background="rgb(140, 78, 255)" color="white">Code
+                    <i style={{marginLeft:"6px"}} class="fa-brands fa-github"></i>
+                    </Button>
+                    </Link>
+                   </Flex>
+                    </Box>
+                    <Box w={["100%","100%","50%","50%"]}>
+                        <Image transition="transform .2s" _hover={{transform:" scale(1.2)"}} w="100%" h={["200px","100%%","100%"]} src={dh}/>
                     </Box>
                 </Flex>
                 </Fade>
