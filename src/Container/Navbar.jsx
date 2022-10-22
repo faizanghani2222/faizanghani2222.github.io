@@ -1,6 +1,7 @@
 import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerOverlay, Flex, Heading, Link, StackDivider, useDisclosure, VStack } from '@chakra-ui/react';
 import React from 'react';
 import "../CSS/mystyle.css"
+import FaizanGhani_Resume from "../Resume/FaizanGhani_Resume.pdf"
 function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
@@ -17,6 +18,7 @@ function Navbar() {
           <Link fontWeight="600" href="#skill">Skills</Link>
           <Link fontWeight="600" href="#project">Projects</Link>
           <Link fontWeight="600" href="#contact">Contact</Link>
+          <Link href={FaizanGhani_Resume} download fontWeight="600">Resume</Link>
           
         </Flex>
 
