@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.97faeb69.css",
-    "main.js": "/static/js/main.84eaa168.js",
+    "main.js": "/static/js/main.3dea0585.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/jio.png": "/static/media/jio.6fe5374658cbe4db3658.png",
     "static/media/zara.png": "/static/media/zara.7efa463c15508eab4a7d.png",
     "static/media/pic.jpg": "/static/media/pic.2b5bdb7759c15f57ccd6.jpg",
     "static/media/dh.png": "/static/media/dh.0b0e6f9a07f51f449caf.png",
-    "static/media/FaizanGhani_Resume.pdf": "/static/media/FaizanGhani_Resume.e16de4a58a46f3d77cfe.pdf",
+    "static/media/FaizanGhani_Resume.pdf": "/static/media/FaizanGhani_Resume.d9882981cb9dd52b3063.pdf",
     "static/media/gh.png": "/static/media/gh.c24c522069a8770fed01.png",
     "static/media/rct.png": "/static/media/rct.0cf951a69d8e58f83f9d.png",
     "static/media/nodejs.png": "/static/media/nodejs.952a9ea986dcfa5229ad.png",
@@ -17,11 +17,11 @@
     "static/media/js.png": "/static/media/js.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.97faeb69.css.map": "/static/css/main.97faeb69.css.map",
-    "main.84eaa168.js.map": "/static/js/main.84eaa168.js.map",
+    "main.3dea0585.js.map": "/static/js/main.3dea0585.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97faeb69.css",
-    "static/js/main.84eaa168.js"
+    "static/js/main.3dea0585.js"
   ]
 }
