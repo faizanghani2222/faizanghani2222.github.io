@@ -6,6 +6,7 @@ import gh from "../images/gh.png"
 import dh from "../images/dh.png"
 import jio from "../images/jio.png"
 import GitHubCalendar from 'react-github-calendar';
+import ReactTooltip from 'react-tooltip';
 function Projects(){
 
     const colourTheme = {
@@ -198,7 +199,9 @@ JavaScript | HTML | CSS</Text>
           blockMargin={6}
           theme={colourTheme}
           fontSize={16}
-        />
+        >
+        <ReactTooltip delayShow={20} html />
+        </GitHubCalendar>
                     </Box>
                 </Fade>
             </Box>
